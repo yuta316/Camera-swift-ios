@@ -13,6 +13,7 @@
 		D611004225BD436A00F44D5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D611004025BD436A00F44D5B /* Main.storyboard */; };
 		D611004425BD437700F44D5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D611004325BD437700F44D5B /* Assets.xcassets */; };
 		D611004725BD437700F44D5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D611004525BD437700F44D5B /* LaunchScreen.storyboard */; };
+		D611005125BD45D100F44D5B /* CheckPermission.swift in Sources */ = {isa = PBXBuildFile; fileRef = D611005025BD45D100F44D5B /* CheckPermission.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D611004325BD437700F44D5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D611004625BD437700F44D5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D611004825BD437700F44D5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D611005025BD45D100F44D5B /* CheckPermission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckPermission.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				D611003A25BD436900F44D5B /* AppDelegate.swift */,
 				D611003C25BD436900F44D5B /* SceneDelegate.swift */,
 				D611003E25BD436A00F44D5B /* ViewController.swift */,
+				D611005025BD45D100F44D5B /* CheckPermission.swift */,
 				D611004025BD436A00F44D5B /* Main.storyboard */,
 				D611004325BD437700F44D5B /* Assets.xcassets */,
 				D611004525BD437700F44D5B /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 				D611003F25BD436A00F44D5B /* ViewController.swift in Sources */,
 				D611003B25BD436900F44D5B /* AppDelegate.swift in Sources */,
 				D611003D25BD436A00F44D5B /* SceneDelegate.swift in Sources */,
+				D611005125BD45D100F44D5B /* CheckPermission.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XG67HJ66AZ;
 				INFOPLIST_FILE = Camera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +313,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XG67HJ66AZ;
 				INFOPLIST_FILE = Camera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
